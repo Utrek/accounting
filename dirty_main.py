@@ -1,1 +1,1 @@
-dirty_main.py 
+from application import *

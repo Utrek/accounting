@@ -1,8 +1,8 @@
-def calculate_salary(days, bid):
+def calculate_salary(days, employee):
     if days == 22:
-        return bid 
+        return employee.salary 
     elif days < 22:
-        return bid * 0.7
+        return employee.salary  * 0.7
     else:
-        return bid * 1.3
+        return employee.salary  * 1.3
     
